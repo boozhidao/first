@@ -51,3 +51,23 @@
 	width: 150px;
 	float: left;
 }
+
+.twitter, .facebook, .rss, .blogger {
+	padding: 2px 0px 2px 24px;
+}
+
+.twitter {
+	background: url(/assets/twitter.png) no-repeat left center;
+}
+
+.facebook {
+	background: url(/assets/facebook.png) no-repeat left center;
+}
+
+.rss{
+	background: url(/assets/rss.png) no-repeat left center;	
+}
+
+.blogger {
+	background: url(/assets/blogger.png) no-repeat left center;
+}
