@@ -1,0 +1,66 @@
+
+#header {
+	margin-top: 20px;
+}
+
+#logo {
+	width: 90px;
+	height: 90px;
+	background: transparent url(/assets/logo.png) no-repeat;
+	text-indent: -9000px;
+	margin: 15px 0 0 0;
+	float: left;
+}
+
+#letschat {
+	font-family: 'Arial', Helvetica;
+	font-weight: bold;
+	font-size: 37px;
+	font-style: italic;
+	height: 32px;
+	width: 700px;
+	color: #BDBDBD;
+	float: right;
+	margin: 31px 0 0 0px;
+	text-align: right;
+}
+
+.container-shadow {
+	width: 1052px;
+	margin: 0 auto;
+}
+
+#nav {
+	background: white url(/assets/fadeline.jpg) no-repeat top right;
+	padding: 15px 5px 0 0;
+	margin: 0px 0 20px 0;
+	float: right;
+	width: 690px;
+	height: 14px;
+}
+
+#nav li {
+	margin-left: 50px;
+	display: block;
+	list-style: none;
+	float: right;
+}
+
+.no-margin {
+	margin: 0px !important;
+}
+
+#nav a {
+	height: 14px;
+	color: #BE372D;
+	font-family: 'Arial', Helvetica;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.content {
+	width: 950px;
+	margin-right: 0;
+	float: left;
+}

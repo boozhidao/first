@@ -11,3 +11,95 @@
  *= require_self
  *= require_tree .
  */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+p {
+	margin: 0 0 1.5em;
+}
+
+a:focus, a:hover {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #BE372D;
+	outline: none;
+}
+
+ul, ol {
+	padding: 0px;
+	list-style-position: inside;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ul, ol {
+	margin: 0 1.5em 1.5em 0;
+	padding-left: 3.333em;
+}
+
+html {
+	background-color: #EEE;
+	font-size: 100.01%;
+}
+
+head {
+	display: none;
+}
+
+body {
+	display: block;
+	background: white;
+	font: 13px/19px 'Arial', sans-serif;
+	color: #0F1D25;
+}
+
+.container {
+	display: block;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.container::after {
+	content: " 0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+link {
+	display: none;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	font-family: Arial, Helvetica;
+}
+
+h1 {
+	font-size: 3em;
+	line-height: 1;
+	margin-bottom: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #111;
+}
+
+

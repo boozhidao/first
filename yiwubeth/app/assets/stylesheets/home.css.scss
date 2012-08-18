@@ -1,0 +1,134 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.slide-container {
+  width: 625px;
+  height: 665px;
+  overflow: hidden;
+  position: relative;
+  background-color: #EEE;
+}
+
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1900px; 
+  left: 0px; 
+}
+
+.pnav .prevnext, .pnav .pagination {
+  display: inline;
+  float: left;
+}
+
+.prevnext {
+  text-indent: -9000px;
+  margin: 3px 5px;
+}
+
+#bannerslide .slide-container {
+  width: 950px;
+  height: 326px;
+  margin-bottom: 15px;
+}
+
+#bannerslide .pnav {
+  width: 942px;
+  margin: 0px;
+  position: absolute;
+  top: 280px;
+}
+
+#bannerslide .prevnext a {
+  width: 18px;
+  height: 44px;
+  display: block;
+}
+
+#bannerslide .previous {
+  background: url("/assets/arrow_left_big.png") no-repeat transparent;
+  margin-left: 12px;
+}
+
+#bannerslide .prevnext a {
+  width: 18px;
+  height: 44px;
+  display: block;
+}
+
+#bannerslide .prevnext a:hover {
+  background-position: right;
+}
+
+#bannerslide .next {
+  background: url("/assets/arrow_right_big.png") no-repeat transparent;
+  margin-left: 870px;
+}
+
+.home-banner {
+  height: 326px;
+}
+
+.slides div {
+  position: absolute;
+  top: 0;
+  width: 625px;
+  display: none;
+}
+
+#bannerslide .slides div {
+  position: absolute;
+  top: 0;
+  width: 950px;
+}
+
+#banner1 {
+  background: url(/assets/hero-espn-new.png) no-repeat;
+}
+
+#banner2 {
+  background: url(/assets/hero-cisco-new.png) no-repeat;
+}
+
+#bannerslide h1 {
+  font-size: 28px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #BE372D;
+  margin: 100px 0px 0px 70px;
+}
+
+#banner1 p, #banner2 p {
+  font-size: 14px;
+  width: 350px;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 15px 0px 0px 70px;
+}
+
+.readmore {
+  display: block;
+  position: relative;
+  background: transparent url(/assets/readmore.png) left;
+  width: 103px;
+  height: 15px;
+  text-indent: -9000px;
+  margin: 10px 0px 0px 70px;
+}
+
+.readmore:hover {
+  background-position: right;
+}
+
+.span-shadow {
+  background: url(/assets/shadow.png) no-repeat center;
+  margin-bottom: 10px;
+}
+
+.span-shadow {
+  width: 1052px;
+  height: 50px;
+  margin-top: -42px;
+}
