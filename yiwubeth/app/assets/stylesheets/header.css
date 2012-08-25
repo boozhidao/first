@@ -11,14 +11,14 @@
 	float: left;
 }
 
-#letschat {
+#welcome {
 	font-family: 'Arial', Helvetica;
 	font-weight: bold;
 	font-size: 37px;
 	font-style: italic;
 	height: 32px;
 	width: 700px;
-	color: #BDBDBD;
+	color: #DDDDDD;
 	float: right;
 	margin: 31px 0 0 0px;
 	text-align: right;
@@ -34,12 +34,11 @@
 	padding: 15px 5px 0 0;
 	margin: 0px 0 20px 0;
 	float: right;
-	width: 690px;
 	height: 14px;
 }
 
 #nav li {
-	margin-left: 50px;
+	margin-left: 30px;
 	display: block;
 	list-style: none;
 	float: right;
@@ -56,6 +55,13 @@
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: bold;
+	padding: 7px 13px;
+}
+
+#nav a:hover {
+	background-color: #E4ECF4;
+	border-color: #999;
+	border-radius: 15px;
 }
 
 .content {

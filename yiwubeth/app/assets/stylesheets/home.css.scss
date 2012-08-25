@@ -48,7 +48,7 @@
 }
 
 #bannerslide .previous {
-  background: url("/assets/arrow_left_big.png") no-repeat transparent;
+  background: url(/assets/arrow_left_big.png) no-repeat transparent;
   margin-left: 12px;
 }
 
@@ -63,12 +63,8 @@
 }
 
 #bannerslide .next {
-  background: url("/assets/arrow_right_big.png") no-repeat transparent;
+  background: url(/assets/arrow_right_big.png) no-repeat transparent;
   margin-left: 870px;
-}
-
-.home-banner {
-  height: 326px;
 }
 
 .slides div {
@@ -84,28 +80,44 @@
   width: 950px;
 }
 
-#banner1 {
-  background: url(/assets/hero-espn-new.png) no-repeat;
-}
-
-#banner2 {
-  background: url(/assets/hero-cisco-new.png) no-repeat;
-}
-
 #bannerslide h1 {
   font-size: 28px;
   font-style: oblique;
   font-weight: bold;
   color: #BE372D;
   margin: 100px 0px 0px 70px;
+  text-shadow: 0px 1px 1px #4d4d4d;  
+  font: 'LeagueGothicRegular';
 }
 
-#banner1 p, #banner2 p {
+.home-banner {
+  height: 326px;
+  background-repeat: no-repeat;
+}
+
+#banner1 {
+  background-image: url(/assets/slide-business-services.png);
+}
+
+#banner2 {
+  background-image: url(/assets/slide-export-agent.png);
+}
+
+#banner3 {
+  background-image: url(/assets/slide-professional-translation.png);
+}
+
+#banner4 {
+  background-image: url(/assets/slide-purchase-agent.png);
+}
+
+.home-banner p {
   font-size: 14px;
   width: 350px;
   color: black;
   font-family: Arial, sans-serif;
-  margin: 15px 0px 0px 70px;
+  margin: 12px 0px 0px 80px;
+  text-shadow: 1px 1px 1px white;
 }
 
 .readmore {
@@ -115,7 +127,7 @@
   width: 103px;
   height: 15px;
   text-indent: -9000px;
-  margin: 10px 0px 0px 70px;
+  margin: 10px 0px 0px 82px;
 }
 
 .readmore:hover {
@@ -132,3 +144,11 @@
   height: 50px;
   margin-top: -42px;
 }
+
+.about-us p {
+  margin: 1em 0;
+  color: #555;
+  font: "Lucida Grande",Sans-Serif;
+  color: #333;
+}
+
