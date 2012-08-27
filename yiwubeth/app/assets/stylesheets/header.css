@@ -24,6 +24,12 @@
 	text-align: right;
 }
 
+#user_nav {
+	display: inline;
+	font-size: 13px;
+	font-style: normal;
+}
+
 .container-shadow {
 	width: 1052px;
 	margin: 0 auto;
