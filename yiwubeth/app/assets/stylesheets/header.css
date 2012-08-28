@@ -7,8 +7,13 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	text-indent: -9000px;
-	margin: 15px 0 0 0;
+	margin: 5px 0 0 0;
 	float: left;
+}
+
+#welcome-header {
+	float: right;
+	text-align: right;
 }
 
 #welcome {
@@ -16,18 +21,16 @@
 	font-weight: bold;
 	font-size: 37px;
 	font-style: italic;
-	height: 32px;
+	height: 28px;
 	width: 700px;
 	color: #DDDDDD;
-	float: right;
-	margin: 31px 0 0 0px;
-	text-align: right;
+	margin: 7px 0 0 0px;
 }
 
 #user_nav {
-	display: inline;
 	font-size: 13px;
 	font-style: normal;
+	display: block;
 }
 
 .container-shadow {
@@ -74,4 +77,12 @@
 	width: 950px;
 	margin-right: 0;
 	float: left;
+}
+
+.notice {
+	display: none;
+}
+
+.alert {
+	display: none;
 }
