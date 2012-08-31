@@ -1,0 +1,19 @@
+<div id="sign">
+    <section class="ui-widget ui-corner-all">
+        <header class="ui-widget-header ui-corner-top">Login</header>
+        <div class="ui-widget-content ui-corner-bottom">
+            <p class="ui-state-error"><%= notice %><%= alert %></p>
+           	
+<% print @yield_layout %>
+			<%= render @yield_layout %>
+		
+        </div>        
+    </section>
+    <%= render "devise/shared/links" %>
+</div>
+
+<script>
+	$(function() {
+		$( "input:submit" ).button();
+	});
+</script>

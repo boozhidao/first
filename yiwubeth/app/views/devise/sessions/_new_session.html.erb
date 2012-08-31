@@ -1,0 +1,15 @@
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <div><%= f.label :email %>
+  <%= f.email_field :email, :class => "ui-widget ui-corner-all" %></div>
+
+  <div><%= f.label :password %>
+  <%= f.password_field :password, :class => "ui-widget ui-corner-all" %></div>
+
+  <% if devise_mapping.rememberable? -%>
+  
+  	<%= f.label :remember_me %>
+	<span class="span-checkbox"><%= f.check_box :remember_me %></span>		  
+	
+  <% end -%>				
+  <div><%= f.submit "Login" %></div>
+<% end %>

@@ -1,0 +1,50 @@
+/* sign Page Styles */
+#sign {
+	float: right;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#sign p {
+	margin: 0 0 0 0;
+}
+
+#sign section {
+    font-size: 1.4em;
+    width: 400px;
+    background-color: #ccc;
+    position: relative;
+    z-index: 1003;
+}
+
+#sign p.ui-state-error {
+	border: 0px;
+}
+
+#sign header, #sign section div.ui-widget-content {
+    padding: 12px;
+}
+
+#sign section form div {
+    padding: 8px 0px;
+}
+
+#sign input[type="checkbox"] {
+	margin-top: 12px;
+}
+
+#sign input[type="submit"] {
+	width: 80%;
+	margin: 10px auto 0;
+}
+
+#sign .span-checkbox {
+	margin: 0 0 0 20px;
+	float: left;
+}
+
+#sign a {
+	margin: 0 10px;
+	float: right;
+}
