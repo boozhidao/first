@@ -1,11 +1,10 @@
 <div id="sign">
     <section class="ui-widget ui-corner-all">
-        <header class="ui-widget-header ui-corner-top">Login</header>
+        <header class="ui-widget-header ui-corner-top"><%= @options[:title] %></header>
         <div class="ui-widget-content ui-corner-bottom">
             <p class="ui-state-error"><%= notice %><%= alert %></p>
            	
-<% print @yield_layout %>
-			<%= render @yield_layout %>
+			<%= render @options[:yield_layout] %>
 		
         </div>        
     </section>

@@ -1,3 +1,8 @@
-<% @yield_layout = "devise/registrations/new_registration" %>
+<% 
+	@options = {
+		:yield_layout => "devise/registrations/new_registration",
+		:title => "Sign Up" 
+		} 
+%>
 
-<%= render :partial =>"devise/sign_layout", :object => @yield_layout %>
+<%= render :partial =>"devise/sign_layout", :object => @options %>
